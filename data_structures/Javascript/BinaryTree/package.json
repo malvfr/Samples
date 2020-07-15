@@ -1,0 +1,11 @@
+{
+  "name": "binary-tree",
+  "version": "1.0.0",
+  "description": "Just a quick binary tree implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Alvarenga",
+  "license": "ISC"
+}
