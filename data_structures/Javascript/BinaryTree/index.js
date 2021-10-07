@@ -37,11 +37,11 @@ class BinaryTree {
         if (!node) {
             node = this.root
         }
-        
+
         if (node.value === value) {
             return node;
         }
-        
+
         if (value > node.value) {
             if (node.right) {
                 return this.find(value, node.right)
@@ -49,7 +49,7 @@ class BinaryTree {
         } else {
             if (node.left) {
                 return this.find(value, node.left)
-            } 
+            }
         }
     }
 }
@@ -64,4 +64,3 @@ tree.insert(70);
 
 console.log(tree.find(20));
 console.log(tree.find(1110));
-console.log(JSON.stringify(tree));
